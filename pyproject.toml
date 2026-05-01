@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "redactly"
-version = "0.1.0"
+version = "0.1.1"
 description = "Safe logging SDK for Python that prevents accidental PII and secret leakage."
 readme = "README.md"
 requires-python = ">=3.13"
@@ -35,7 +35,11 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/segwise/redactly"
+Homepage = "https://github.com/gupsho/redactly"
+Repository = "https://github.com/gupsho/redactly"
+Issues = "https://github.com/gupsho/redactly/issues"
+Changelog = "https://github.com/gupsho/redactly/releases"
+Documentation = "https://github.com/gupsho/redactly#readme"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/redactly"]

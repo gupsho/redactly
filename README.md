@@ -409,7 +409,7 @@ No — explicit non-goal for v1. Pipe `telemetry_hook` events to wherever you al
 ### Setup
 
 ```sh
-git clone https://github.com/segwise/redactly.git
+git clone https://github.com/gupsho/redactly.git
 cd redactly
 python3 -m venv .venv
 source .venv/bin/activate
