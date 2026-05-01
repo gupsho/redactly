@@ -1,5 +1,10 @@
 # redactly
 
+[![CI](https://github.com/gupsho/redactly/actions/workflows/ci.yml/badge.svg)](https://github.com/gupsho/redactly/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/redactly.svg)](https://pypi.org/project/redactly/)
+[![Python](https://img.shields.io/pypi/pyversions/redactly.svg)](https://pypi.org/project/redactly/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **A drop-in Python logging SDK that stops you from leaking secrets and PII — without adding a new logging API.**
 
 Most "logging" incidents aren't hacks. Someone logged a request body. Someone added `logger.info(user.__dict__)` during debugging and shipped it. Someone did `f"token={t}"`. Your SIEM, your S3 log archive, your APM vendor, your grep-in-terminal — they all now have the data.
@@ -452,6 +457,13 @@ redactly/
 
 ---
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for the full release history. Highlights are
+also published as GitHub Releases on every tagged version.
+
+---
+
 ## License
 
-MIT.
+MIT — see [LICENSE](LICENSE).
